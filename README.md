@@ -127,3 +127,13 @@ Hostname **маршрутизатора** используется как:
     "port": 22
   }
 }
+## Запуск
+1. Установите зависимости: `pip install -r requirements.txt`.
+2. Запустите скрипт: `python main.py`.
+3. Введите пароль и enable secret при запросе.
+4. Результат: Таблица в консоли + CSV-файл с именем `<hostname>_<date_time>.csv`.
+
+Пример запуска:
+```
+(venv) PS D:\...\route_inspector> python.exe main.py
+```
